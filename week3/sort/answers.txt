@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: sort1 is slow on random input but faster on already-sorted input. Bubble sort performs better when data is already sorted because it makes fewer swaps.
+
+sort2 uses: Merge Sort
+
+How do you know?: sort2 is consistently fast on all inputs. Merge sort always runs in O(n log n) time regardless of the input order.
+
+sort3 uses: Selection Sort
+
+How do you know?: sort3 is slow on both random and sorted inputs. Selection sort always takes the same amount of time regardless of input order because it always scans the entire unsorted portion.
